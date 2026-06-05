@@ -1,0 +1,19 @@
+1) [] 26. Remove Duplicates from Sorted Array  ---
+2) []136. Single Number
+3) []66. Plus One
+4) []283. Move Zeroes
+5) []1. Two Sum ---
+6) []238. Product of Array Except Self (med)
+7) []1431. Kids With the Greatest Number of Candies
+8) []605. Can Place Flowers
+9) []724. Find Pivot Index
+10) [] 1732. Find the Highest Altitude
+11) []219 Contains Duplicate  ---
+12) []169 Majority Element
+13) [x] 1480. Running Sum of 1d Array*
+14) [x] 268. Missing Number*  ---
+15) [x] 344. Reverse String*
+16) [x] 349. Intersection 2 Arrays*  ---
+17) [x] 442. Find Duplicates*  ---
+18) [x] 217. Contains Duplicate*  ---
+19) [x] 189. Rotate Array*  ---

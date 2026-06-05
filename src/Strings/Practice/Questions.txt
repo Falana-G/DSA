@@ -1,0 +1,21 @@
+    1. 541. Reverse string II
+    2. 58. Length of last word
+    3. 680. Valid palindrome II (2 pointer)
+    4. 387. First unique character in a string
+    5. 383. Ransome note
+    6. 1160. Find words that can be formed by characters
+    7. 28. Find the index of the first occurrence in a string
+    8. 859. Buddy strings
+    9. 520. Detect capital
+    10. 844. Backspace string compare(level1)
+    11. 1047. Remove all adjacent duplicates in a string
+    12. 1544. Make the string great
+    13. 443. String compression(level2)
+    14. 917. Reverse only letters (level1)
+    15. 1662. Check if two string arrays are equivalent(level 1)
+    16. 190. Reverse bits(tcs)
+    17. 7. Reverse integer
+    18. 202. Happy numbers
+    19. 258. Add digits
+    20. 326. Power of three
+    21. 461. Hamming distance
