@@ -27,6 +27,7 @@ Total ways:
 
 
 public class Climbing_Stairs {
+    //Leetcode 70
     static void main(String[] args) {
         int n = 4;
         Ways(n);
