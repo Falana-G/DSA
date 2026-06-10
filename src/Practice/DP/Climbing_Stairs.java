@@ -28,6 +28,16 @@ Total ways:
 
 public class Climbing_Stairs {
     static void main(String[] args) {
-
+        int n = 4;
+        Ways(n);
+    }
+    public static void Ways(int n){
+        int []steps = new int[n];
+        steps[0] = 1;
+        steps[1] = 2;
+        for (int i = 2; i < n; i++) {
+            steps[i] = steps[i-1] + steps[i-2];
+        }
+        System.out.println(steps[n-1]);
     }
 }
