@@ -25,32 +25,43 @@ requires 4 coins.
 */
 
 
+import java.util.Arrays;
 
 public class Minimum_Coins {
     static void main(String[] args) {
-        int []coins  = {1,4,5};
-        int amount = 8;
+        int []coins  = {1, 2147483647};
+        int amount = 2;
         System.out.println(Minimum(coins, amount));
     }
 
     public static int Minimum(int[] coins, int amount){
-        int count = 0;
-        for (int i = coins.length-1; i >= 0 ; i--) {
-            if(coins[i] <= amount){
-                int remain = amount%coins[i];
-                count = amount/coins[i];
+        Arrays.sort(coins);
+        int []count = new int[coins.length];
+        int remain = Integer.MAX_VALUE;
+        if(amount == 0){return 0;}
+
+        for (int i = coins.length-1; i >= 0; i--) {
+            if(amount >= coins[i]){
+                remain = amount%coins[i];
+                count[i] = amount/coins[i];
                 for (int j = i-1; j >= 0; j--) {
-                    if(remain >= coins[j]){
-                        count += remain/coins[j];
+                    if(remain > 0 && remain >= coins[j]){
+                        count[i] += remain/coins[j];
                         remain = remain%coins[j];
-                        if(remain == 0){
-                            break;
-                        }
                     }
                 }
-                break;
+            }
+            else{
+                count[i] = Integer.MAX_VALUE;
             }
         }
-        return count;
+        if(remain != 0){
+            return -1;
+        }
+        int res = Integer.MAX_VALUE;
+        for(int x : count){
+            res = Math.min(res, x);
+        }
+        return res;
     }
 }
