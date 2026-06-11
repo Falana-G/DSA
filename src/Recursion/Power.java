@@ -21,8 +21,7 @@ public class Power {
         }
         else{
             ans = ans*n;
-            p--;
-            powHead(n, p, ans);
+            powHead(n, p-1, ans);
         }
     }
 }
