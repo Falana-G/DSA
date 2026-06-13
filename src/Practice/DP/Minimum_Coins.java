@@ -28,7 +28,7 @@ requires 4 coins.
 import java.util.Arrays;
 
 public class Minimum_Coins {
-    static void main(String[] args) {
+    /*static void main(String[] args) {
         int []coins  = {1, 2147483647};
         int amount = 2;
         System.out.println(Minimum(coins, amount));
@@ -63,5 +63,5 @@ public class Minimum_Coins {
             res = Math.min(res, x);
         }
         return res;
-    }
+    }*/
 }
