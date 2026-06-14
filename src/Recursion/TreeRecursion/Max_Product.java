@@ -1,7 +1,5 @@
 package Recursion.TreeRecursion;
 
-import java.util.ArrayList;
-
 public class Max_Product {
     static void main(String[] args) {
         int n = 8;
@@ -21,7 +19,7 @@ public class Max_Product {
             }
         }
         else if(sum > n || i > n){
-
+            return;
         }
         else{
             // Include
