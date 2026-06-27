@@ -1,7 +1,6 @@
 package Recursion.TreeRecursion;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.StringTokenizer;
 
 public class Ways_to_Target_Sum {
@@ -10,7 +9,6 @@ public class Ways_to_Target_Sum {
         int target = 10;
         int n = 0;
         String ss = "";
-        List<Integer> al = new ArrayList<>();
         ways(nums, 0, target, n, ss);
     }
 

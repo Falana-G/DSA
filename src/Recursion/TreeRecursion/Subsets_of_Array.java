@@ -1,13 +1,11 @@
 package Recursion.TreeRecursion;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Subsets_of_Array {
     static void main(String[] args) {
         int []arr = {1,2,3};
-        String ans = "";
         System.out.println(subsets(arr));
     }
 
