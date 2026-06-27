@@ -6,7 +6,7 @@ public class Lateral_Mirror_Image {
                 {1, 2, 3},
                 {4, 5, 6},
                 {7, 8, 9},
-                {10, 11, 12},
+                {10,11,12},
         };
         int brr[][] = Mirror(arr);
         print(brr);

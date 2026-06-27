@@ -1,8 +1,5 @@
 package Matrix;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class Print_Boundary {
     static void main(String[] args) {
         int arr[][] = {
