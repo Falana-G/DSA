@@ -15,7 +15,7 @@ public class String_Tokenizer {
         StringTokenizer st = new StringTokenizer(s);
         int n = st.countTokens();
         System.out.println(n);
-// Making Shortform
+        // Making Shortform
         for (int i = 0; i < n; i++) {
             String temp = st.nextToken();
             System.out.print(temp.charAt(0)+".");
